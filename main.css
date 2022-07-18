@@ -1,0 +1,165 @@
+.b-header {
+  background-color: rgb(246, 239, 232);
+  margin: 0px;
+}
+
+.b-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(246, 239, 232);
+  position: fixed;
+  width: 100%;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 60px;
+}
+
+.b-kiva {
+  margin-left: -30px;
+  padding: 0;
+}
+
+.b-btn {
+  height: 50px;
+  width: 90%;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.b-btn--purple {
+  background-color: #481549;
+  color: white;
+}
+.b-btn--blue {
+  background-color: #4285f4;
+  color: white;
+  padding-left: 4rem;
+  display: flex;
+  height: 57px;
+  align-items: center;
+  margin-left: 10px;
+  padding-right: 1rem;
+  justify-content: center;
+}
+.b-btn--white {
+  background-color: white;
+  color: #481549;
+}
+.b-btn--purple2 {
+  background-color: #481549;
+  color: white;
+  border-color: white;
+}
+
+.numero {
+  color: white;
+  background-color: #481549;
+  width: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  border-radius: 3px;
+  padding-top: 12px;
+  font-size: 25px;
+}
+
+.b-wback {
+  background-color: white;
+}
+
+.b-wpurple {
+  background-color: #481549;
+  -webkit-clip-path: ellipse(105% 100% at center top);
+          clip-path: ellipse(105% 100% at center top);
+  padding-bottom: 6rem;
+}
+
+.margin {
+  margin: 5%;
+  padding: 5%;
+  width: 75%;
+}
+
+.b-white {
+  color: white;
+  margin: 5%;
+  padding-left: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.b-footer {
+  line-height: 2;
+}
+
+@font-face {
+  font-family: Helvetica_Neue;
+  src: url("Assets/helvetica_neue/HelveticaNeueLTStdBd.otf");
+}
+.borderline {
+  border-top: 2px;
+  color: grey;
+  border-top-style: solid;
+}
+
+.b-btween {
+  display: flex;
+  justify-content: space-between;
+}
+
+.b-img1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.b-img1--s {
+  width: 50%;
+  padding-left: 25%;
+}
+
+.b-list1 {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.b-nodeco {
+  text-decoration: none;
+}
+
+.b-list2 {
+  list-style: none;
+}
+.b-list2--row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.img2 {
+  width: 50px;
+  padding-right: 20px;
+}
+
+body {
+  font-family: Helvetica_Neue;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  body {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 1440px) and (max-width: 4000px) {
+  body {
+    font-size: 35px;
+  }
+}/*# sourceMappingURL=main.css.map */

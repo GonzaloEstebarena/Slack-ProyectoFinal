@@ -1,0 +1,39 @@
+.b-btween {
+    display: flex ;
+    justify-content: space-between;
+}
+.b-img1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    &--s {
+        width:50%;
+        padding-left: 25%;
+    }
+}
+.b-list1 {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.b-nodeco {
+text-decoration: none;
+}
+.b-list2 {
+    list-style: none;
+   
+    &--row {
+        display: flex  ;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
+.img2 {
+    width: 50px;
+    padding-right: 20px;
+    
+    
+}
+body {
+    font-family: Helvetica_Neue;
+}

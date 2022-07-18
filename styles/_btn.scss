@@ -1,0 +1,43 @@
+.b-btn {
+    height: 50px;
+    width: 90%;
+    font-size: 20px;
+    border-radius: 5px;
+    margin:  10px;
+    
+    &--purple{
+        background-color: #481549;
+        color: white;
+    }
+    &--blue{
+        background-color: #4285f4;
+        color: white;
+        padding-left: 4rem;
+    display: flex;
+    height: 57px;
+    align-items: center;
+    margin-left: 10px;
+    padding-right: 1rem;
+    justify-content: center;
+    }
+    &--white{
+        background-color: white;
+        color: #481549;
+    }
+&--purple2  {
+    background-color: #481549;
+        color: white;
+        border-color: white;
+}
+}
+.numero {
+    color: white;
+    background-color: #481549;
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    padding-top: 12px;
+    font-size: 25px;
+}   

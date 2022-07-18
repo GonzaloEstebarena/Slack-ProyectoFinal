@@ -1,0 +1,39 @@
+.b-wback {
+    background-color: white;
+    
+    
+}
+.b-wpurple {
+    background-color: #481549;
+    clip-path: ellipse(105% 100% at center top);
+    padding-bottom: 6rem;
+}
+.margin {
+    margin: 5%;
+
+    padding: 5%;
+    width: 75%;
+    
+}
+.b-white {
+    color: white;
+    margin: 5%;
+    padding-left:5%;
+    display: flex;
+    justify-content: center;
+}
+.b-footer {
+    
+   line-height: 2;
+
+}
+@font-face {
+    font-family: Helvetica_Neue;
+    src: url('Assets/helvetica_neue/HelveticaNeueLTStdBd.otf');
+}
+.borderline {
+    border-top: 2px; 
+    color:grey ;
+    border-top-style: solid;
+
+}

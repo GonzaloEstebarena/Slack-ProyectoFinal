@@ -1,0 +1,22 @@
+.b-header {
+    background-color: rgb(246, 239, 232);
+    margin: 0px;
+    
+}
+
+.b-nav {
+    display: flex ;
+    justify-content: space-between;
+    background-color: rgb(246, 239, 232);
+    position: fixed;
+    width: 100%;
+    margin: 0;
+}
+h1 {
+    margin:0;
+    padding-top: 60px;
+}
+.b-kiva {
+    margin-left: -30px;
+    padding: 0;
+}
